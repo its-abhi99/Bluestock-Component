@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left:10px;
+    
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9A9A9A;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a .fas {
+    margin-left: 5px;
+    
+}
+
+.new {
+    color: #FFFFFF;
+    background-color: #4154f1;
+    margin-left: 5px;
+    border-radius: 2px;
+    padding: 3px 8px;
+    font-size: 8px;
+    vertical-align: middle;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: #666;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.auth-buttons .sign-up {
+    background-color: #4154f1;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    
+}
+
+.auth-buttons .sign-in {
+    margin-left: 10px; 
+}
+
+.menu-icon {
+    width: 18px;
+    height: 28px;
+    margin-left: 0px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.menu-icon div {
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    border-radius: 2px;
+}
+/* Sidebar styles */
+.content-wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #0930dd;
+    
+    
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+    color:#0930dd;
+}
+
+/* Comparison section styles */
+.comparison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    
+    
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128,0.3);
+}
+
+.card img {
+    width: 75px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+   
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.card .stars {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.card .stars i {
+    color: gold;
+}
+
+.card h3 {
+    font-size: 36px;
+    color: #111111;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.vs {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #111111;
+    margin: 0 20px;
+    padding : 8px 8px;
+    border-radius: 50%;
+}
+
+.chart-section, .charges-section, .brokerage-section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.chart-section h2, .charges-section h2, .brokerage-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
